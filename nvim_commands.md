@@ -34,58 +34,58 @@
 ## Insert mode
 
 ```bash
-`Esc`: Exit insert mode.
-`Ctrl + [`: Exit insert mode.
+`Esc`               # Exit insert mode.
+`Ctrl + [`          # Exit insert mode.
 ```
 
 ## Visual mode
 
 ```bash
-`v`: Enter visual mode.
-`V`: Enter visual line mode.
-`Ctrl + v`: Enter visual block mode.
-`Esc`: Exit visual mode.
+`v`                 # Enter visual mode.
+`V`                 # Enter visual line mode.
+`Ctrl + v`          # Enter visual block mode.
+`Esc`               # Exit visual mode.
 ```
 
 ## Undo and redo
 
 ```bash
-`u`: Undo the last change.
-`Ctrl + r`: Redo the last undone change.
+`u`                 # Undo the last change.
+`Ctrl + r`          # Redo the last undone change.
 ```
 
 ## Search
 
 ```bash
-`/{pattern}`: Search for the specified pattern.
-`n`: Jump to the next match of the current search pattern.
-`N`: Jump to the previous match of the current search pattern.
+`/{pattern}`        # Search for the specified pattern.
+`n`                 # Jump to the next match of the current search pattern.
+`N`                 # Jump to the previous match of the current search pattern.
 ```
 
 ## Saving and quitting
 
 ```bash
-`:w`: Save the current file.
-`:w {file}`: Save the current file as the specified file.
-`:wq`: Save and quit.
-`:q`: Quit.
-`:q!`: Quit without saving.
+`:w`                # Save the current file.
+`:w {file}`         # Save the current file as the specified file.
+`:wq`               # Save and quit.
+`:q`                # Quit.
+`:q!`               # Quit without saving.
 ```
 
 ## Cut, copy, and paste
 
 ```bash
-`yy`: Copy the current line.
-`{Visual mode} y`: Copy the selected text.
-`p`: Paste the text that was last yanked or deleted after the cursor.
-`P`: Paste the text that was last yanked or deleted before the cursor.
+`yy`                # Copy the current line.
+`{Visual mode} y`   # Copy the selected text.
+`p`                 # Paste the text that was last yanked or deleted after the cursor.
+`P`                 # Paste the text that was last yanked or deleted before the cursor.
 ```
 
 ## Replace
 
 ```bash
-`:%s/{old text}/{new text}/g`: Replace all occurrences of old text with new text in the current file.
-`:%s/{old text}/{new text}/gc`: Replace all occurrences of old text with new text in the current file, with a prompt to confirm each replacement.
+`:%s/{old text}/{new text}/g`   # Replace all occurrences of old text with new text in the current file.
+`:%s/{old text}/{new text}/gc`  # Replace all occurrences of old text with new text in the current file, with a prompt to confirm each replacement.
 ```
 
 ## Splitting windows
