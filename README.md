@@ -7,6 +7,9 @@ As I learn and customise Neovim, I'll keep addig my own settings, shortcuts, and
 
 Feel free to explore, use, or take inpsiration from anyhting here. if it helps you, great!
 
+## Font
+I chose the [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads) as it was the cleanest font and its nice to look at.
+
 ## Norminette for 42 school
 
 We use norminette to verify the code complies with the norm. 
