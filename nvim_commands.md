@@ -14,6 +14,8 @@
 ```
 
 ## Editing
+
+```bash
 `i`                 # Enter insert mode at the current cursor position.
 `I`                 # Enter insert mode at the beginning of the current line.
 `a`                 # Enter insert mode after the current cursor position.
@@ -27,6 +29,7 @@
 `d{motion}`         # Delete the text that is moved over with the specified motion (e.g., dw will delete the current word).
 `dd`                # Delete the current line.
 `{Visual mode}`     # Select text to operate on it (e.g., d will delete the selected text).
+```
 
 ## Insert mode
 Esc: Exit insert mode.
