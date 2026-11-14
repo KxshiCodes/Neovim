@@ -1,0 +1,2 @@
+[dashboard.lua]
+trim_trailing_whitespace = false
