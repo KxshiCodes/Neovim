@@ -1,5 +1,12 @@
 # Basic nvim Commands 
 
+## start
+
+```bash
+`nvim`              # Enter Neovim
+
+```
+
 ## Navigation
 
 ```bash
