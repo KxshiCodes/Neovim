@@ -3,7 +3,7 @@
 ## start
 
 ```bash
-`nvim`              # Enter Neovim
+`nvim`              # Enter Neovim from terminal.
 
 ```
 
