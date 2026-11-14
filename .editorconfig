@@ -1,0 +1,15 @@
+root = true
+
+[*]
+trim_trailing_whitespace = true
+indent_style = space
+end_of_line = lf
+
+[*.json]
+indent_size = 2
+
+[*.lua]
+indent_size = 2
+
+[*.toml]
+indent_size = 2
