@@ -1,4 +1,4 @@
-# Neovim
+# Neovim Configurations
 
 My personal Neovim notes and configuration.
 
