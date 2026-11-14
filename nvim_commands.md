@@ -3,7 +3,7 @@
 ## Navigation
 
 ```bash
-`h, j, k, l`        # Move the cursor left, down, up, and right, respectively.
+`h`, `j`, `k`, `l`        # Move the cursor left, down, up, and right, respectively.
 `w`                 # Move the cursor to the beginning of the next word.
 `b`                 # Move the cursor to the beginning of the previous word.
 `e`                 # Move the cursor to the end of the current word.
@@ -14,19 +14,19 @@
 ```
 
 ## Editing
-i: Enter insert mode at the current cursor position.
-I: Enter insert mode at the beginning of the current line.
-a: Enter insert mode after the current cursor position.
-A: Enter insert mode at the end of the current line.
-o: Insert a new line below the current line and enter insert mode.
-O: Insert a new line above the current line and enter insert mode.
-r: Replace the character under the cursor.
-R: Enter replace mode.
-x: Delete the character under the cursor.
-X: Delete the character before the cursor.
-d{motion}: Delete the text that is moved over with the specified motion (e.g., dw will delete the current word).
-dd: Delete the current line.
-{Visual mode}: Select text to operate on it (e.g., d will delete the selected text).
+`i`                 # Enter insert mode at the current cursor position.
+`I`                 # Enter insert mode at the beginning of the current line.
+`a`                 # Enter insert mode after the current cursor position.
+`A`                 # Enter insert mode at the end of the current line.
+`o`                 # Insert a new line below the current line and enter insert mode.
+`O`                 # Insert a new line above the current line and enter insert mode.
+`r`                 # Replace the character under the cursor.
+`R`                 # Enter replace mode.
+`x`                 # Delete the character under the cursor.
+`X`                 # Delete the character before the cursor.
+`d{motion}`         # Delete the text that is moved over with the specified motion (e.g., dw will delete the current word).
+`dd`                # Delete the current line.
+`{Visual mode}`     # Select text to operate on it (e.g., d will delete the selected text).
 
 ## Insert mode
 Esc: Exit insert mode.
