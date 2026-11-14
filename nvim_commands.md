@@ -35,115 +35,119 @@
 
 ```bash
 `Esc: Exit insert mode.
-Ctrl + [: Exit insert mode.
+`Ctrl + [: Exit insert mode.
 ```
 
 ## Visual mode
 
 ```bash
-v: Enter visual mode.
-V: Enter visual line mode.
-Ctrl + v: Enter visual block mode.
-Esc: Exit visual mode.
+`v: Enter visual mode.
+`V: Enter visual line mode.
+`Ctrl + v: Enter visual block mode.
+`Esc: Exit visual mode.
 ```
 
 ## Undo and redo
 
 ```bash
-u: Undo the last change.
-Ctrl + r: Redo the last undone change.
-Search
-/{pattern}: Search for the specified pattern.
-n: Jump to the next match of the current search pattern.
-N: Jump to the previous match of the current search pattern.
-Saving and quitting
-:w: Save the current file.
-:w {file}: Save the current file as the specified file.
-:wq: Save and quit.
-:q: Quit.
-:q!: Quit without saving.
+`u: Undo the last change.
+`Ctrl + r: Redo the last undone change.
+
+### Search
+
+`/{pattern}: Search for the specified pattern.
+`n: Jump to the next match of the current search pattern.
+`N: Jump to the previous match of the current search pattern.
+
+### Saving and quitting
+
+`:w: Save the current file.
+`:w {file}: Save the current file as the specified file.
+`:wq: Save and quit.
+`:q: Quit.
+`:q!: Quit without saving.
 ```
 
 ## Search
 
 ```bash
-/{pattern}: Search for the specified pattern.
-n: Jump to the next match of the current search pattern.
-N: Jump to the previous match of the current search pattern.
+`/{pattern}: Search for the specified pattern.
+`n: Jump to the next match of the current search pattern.
+`N: Jump to the previous match of the current search pattern.
 ```
 
 ## Saving and quitting
 
 ```bash
-:w: Save the current file.
-:w {file}: Save the current file as the specified file.
-:wq: Save and quit.
-:q: Quit.
-:q!: Quit without saving.
+`:w: Save the current file.
+`:w {file}: Save the current file as the specified file.
+`:wq: Save and quit.
+`:q: Quit.
+`:q!: Quit without saving.
 ```
 
 ## Cut, copy, and paste
 
 ```bash
-yy: Copy the current line.
-{Visual mode} y: Copy the selected text.
-p: Paste the text that was last yanked or deleted after the cursor.
-P: Paste the text that was last yanked or deleted before the cursor.
+`yy: Copy the current line.
+`{Visual mode} y: Copy the selected text.
+`p: Paste the text that was last yanked or deleted after the cursor.
+`P: Paste the text that was last yanked or deleted before the cursor.
 ```
 
 ## Replace
 
 ```bash
-:%s/{old text}/{new text}/g: Replace all occurrences of old text with new text in the current file.
-:%s/{old text}/{new text}/gc: Replace all occurrences of old text with new text in the current file, with a prompt to confirm each replacement.
+`:%s/{old text}/{new text}/g: Replace all occurrences of old text with new text in the current file.
+`:%s/{old text}/{new text}/gc: Replace all occurrences of old text with new text in the current file, with a prompt to confirm each replacement.
 ```
 
 ## Splitting windows
 
 ```bash
-:split: Split the window horizontally.
-:vsplit: Split the window vertically.
-Ctrl + w h, Ctrl + w j, Ctrl + w k, Ctrl + w l: Move to the window to the left, below, above, or right of the current window, respectively.
-:q: Close the current window.
+`:split: Split the window horizontally.
+`:vsplit: Split the window vertically.
+`Ctrl + w h, Ctrl + w j, Ctrl + w k, Ctrl + w l: Move to the window to the left, below, above, or right of the current window, respectively.
+`:q: Close the current window.
 ```
 
 ## Tabs
 
 ```bash
-:tabnew: Open a new tab.
-gt: Move to the next tab.
-gT: Move to the previous tab.
-{tab number}gt: Move to the specified tab number.
-:tabclose: Close the current tab.
+`:tabnew: Open a new tab.
+`gt: Move to the next tab.
+`gT: Move to the previous tab.
+`{tab number}gt: Move to the specified tab number.
+`:tabclose: Close the current tab.
 ```
 
 ## File management
 
 ```bash
-:e {file}: Open the specified file.
-:ls: List all open buffers.
-:b {buffer number}: Switch to the specified buffer.
-:bd: Close the current buffer.
+`:e {file}: Open the specified file.
+`:ls: List all open buffers.
+`:b {buffer number}: Switch to the specified buffer.
+`:bd: Close the current buffer.
 ```
 
 ## Syntax highlighting
 
 ```bash
-:syntax on: Enable syntax highlighting.
-:syntax off: Disable syntax highlighting.
+`:syntax on: Enable syntax highlighting.
+`:syntax off: Disable syntax highlighting.
 ```
 
 ## Indentation
 
 ```bash
->: Indent the current line.
-<: Unindent the current line.
-==: Auto-indent the current line.
-=%: Auto-indent the current block (e.g., a function).
+`>: Indent the current line.
+`<: Unindent the current line.
+`==: Auto-indent the current line.
+`=%: Auto-indent the current block (e.g., a function).
 ```
 ## Help
 
 ```bash
-:help {topic}: Display the help for the specified topic.
-:help user-manual: Open the Neovim user manual in a browser.
+`:help {topic}: Display the help for the specified topic.
+`:help user-manual: Open the Neovim user manual in a browser.
 ```
