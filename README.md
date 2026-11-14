@@ -11,7 +11,7 @@ Feel free to explore, use, or take inpsiration from anyhting here. if it helps y
 
 I chose the [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads) as it was the cleanest font and its nice to look at.
 
-**Mac users:** A small heads-up! If you're on macOS, simply downloading the font isn't enough. I initially placed it in `~/.local/share/fonts/`, but macOS Terminal wouldn't recognize it.
+**Mac users:** A small heads-up! If you're on macOS, simply downloading the font isn't enough. I initially placed it in `~/.local/share/fonts/`, but macOS Terminal wouldn't recognise it.
 
 To get it working properly, I had to copy the font files into the macOS user fonts directory:
 
