@@ -1,14 +1,17 @@
 # Basic nvim Commands 
 
 ## Navigation
-`h, j, k, l`: Move the cursor left, down, up, and right, respectively.
-`w`: Move the cursor to the beginning of the next word.
+
+```bash
+`h, j, k, l`    # Move the cursor left, down, up, and right, respectively.
+`w`             # Move the cursor to the beginning of the next word.
 `b`: Move the cursor to the beginning of the previous word.
 `e`: Move the cursor to the end of the current word.
 `gg`: Move the cursor to the beginning of the file.
 `G`: Move the cursor to the end of the file.
 `{number}G`: Move the cursor to the specified line number.
 `:{line number}`: Move the cursor to the specified line number.
+```
 
 ## Editing
 i: Enter insert mode at the current cursor position.
