@@ -8,7 +8,20 @@ As I learn and customise Neovim, I'll keep addig my own settings, shortcuts, and
 Feel free to explore, use, or take inpsiration from anyhting here. if it helps you, great!
 
 ## Font
+
 I chose the [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads) as it was the cleanest font and its nice to look at.
+
+**Mac users:** A small heads-up! If you're on macOS, simply downloading the font isn't enough. I initially placed it in `~/.local/share/fonts/`, but macOS Terminal wouldn't recognize it.
+
+To get it working properly, I had to copy the font files into the macOS user fonts directory:
+
+```bash
+mkdir -p ~/Library/Fonts
+cp -R ~/.local/share/fonts/JetBrainsMono/* ~/Library/Fonts/
+```
+After that, I restarted Terminal and selected JetBrainsMono Nerd Font under Terminal → Settings → Profiles → Text → Font.
+
+This also fixed the missing icons and question mark boxes in my Neovim dashboard. Just something to keep in mind if you're setting this up on a Mac!
 
 ## Norminette for 42 school
 
