@@ -16,8 +16,7 @@ I chose the [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads) 
 To get it working properly, I had to copy the font files into the macOS user fonts directory:
 
 ```bash
-mkdir -p ~/Library/Fonts
-cp -R ~/.local/share/fonts/JetBrainsMono/* ~/Library/Fonts/
+~/Library/Fonts/
 ```
 After that, I restarted Terminal and selected JetBrainsMono Nerd Font under Terminal → Settings → Profiles → Text → Font.
 
