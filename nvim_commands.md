@@ -4,6 +4,7 @@
 
 ```bash
 `nvim`              # Enter Neovim from terminal.
+`nvim {filename}.rb`# Enter a folder in Neovim.
 
 ```
 
