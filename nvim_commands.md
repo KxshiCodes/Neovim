@@ -34,56 +34,42 @@
 ## Insert mode
 
 ```bash
-`Esc: Exit insert mode.
-`Ctrl + [: Exit insert mode.
+`Esc`: Exit insert mode.
+`Ctrl + [`: Exit insert mode.
 ```
 
 ## Visual mode
 
 ```bash
-`v: Enter visual mode.
-`V: Enter visual line mode.
-`Ctrl + v: Enter visual block mode.
-`Esc: Exit visual mode.
+`v`: Enter visual mode.
+`V`: Enter visual line mode.
+`Ctrl + v`: Enter visual block mode.
+`Esc`: Exit visual mode.
 ```
 
 ## Undo and redo
 
 ```bash
-`u: Undo the last change.
-`Ctrl + r: Redo the last undone change.
-
-### Search
-
-`/{pattern}: Search for the specified pattern.
-`n: Jump to the next match of the current search pattern.
-`N: Jump to the previous match of the current search pattern.
-
-### Saving and quitting
-
-`:w: Save the current file.
-`:w {file}: Save the current file as the specified file.
-`:wq: Save and quit.
-`:q: Quit.
-`:q!: Quit without saving.
+`u`: Undo the last change.
+`Ctrl + r`: Redo the last undone change.
 ```
 
 ## Search
 
 ```bash
-`/{pattern}: Search for the specified pattern.
-`n: Jump to the next match of the current search pattern.
-`N: Jump to the previous match of the current search pattern.
+`/{pattern}`: Search for the specified pattern.
+`n`: Jump to the next match of the current search pattern.
+`N`: Jump to the previous match of the current search pattern.
 ```
 
 ## Saving and quitting
 
 ```bash
-`:w: Save the current file.
-`:w {file}: Save the current file as the specified file.
-`:wq: Save and quit.
-`:q: Quit.
-`:q!: Quit without saving.
+`:w`: Save the current file.
+`:w {file}`: Save the current file as the specified file.
+`:wq`: Save and quit.
+`:q`: Quit.
+`:q!`: Quit without saving.
 ```
 
 ## Cut, copy, and paste
