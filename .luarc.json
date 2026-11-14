@@ -1,0 +1,8 @@
+{
+  "diagnostics.disable": [
+    "missing-fields",
+    "missing-parameter",
+    "unused-local"
+  ],
+  "diagnostics.globals": ["vim", "require", "Snacks"]
+}
