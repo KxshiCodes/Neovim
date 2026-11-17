@@ -1,3 +1,5 @@
+[🇬🇧 English](README.md) | [🇫🇷 Français](README.fr.md)
+
 # Neovim Configurations
 
 My personal Neovim notes and configuration.
